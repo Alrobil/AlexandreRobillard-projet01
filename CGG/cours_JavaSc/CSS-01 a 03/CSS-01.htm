@@ -1,0 +1,65 @@
+<html><!-- Gabarit pour les exercices des tableaux -->
+  <head>
+    <title>420-PK9-SL - CSS-01c - Positionnement</title>
+
+    <style>
+      
+
+     
+    
+      
+    </style>
+  </head>
+
+  <body>
+    <h2 align="center">Apparence de tableaux par CSS</h2><br/>
+
+    <table border="0" align="center">
+      <tr class="entete"> <!-- Rang d'ent�tes -->
+        <th width="20">No.</th>
+        <th width="35">Qt�</th>
+        <th width="150">Desc.</th>
+        <th width="75">Co�t</th>
+        <th width="75">Total</th>
+      </tr>
+
+      <tr> <!-- premier rang -->
+        <td align="center">1</td>
+        <td align="center" colspan="3">Frais divers</td>
+        <td align="right">$ 15,00</td>
+      </tr>
+
+      <tr> <!-- second rang -->
+
+        <td align="center">2</td>
+        <td align="right">1</td>
+        <td align="left">Patentes</td>
+        <td align="right">$ 19,99</td>
+        <td align="right">$ 19,99</td>
+      </tr>
+
+      <tr> <!-- troisi�me rang -->
+        <td align="center" rowspan="2">3</td>
+        <td align="right">100</td>
+        <td align="left">Cossins</td>
+        <td align="right">$ 0,05</td>
+        <td align="right">$ 5,00</td>
+      </tr>
+
+      <tr> <!-- quatri�me rang -->
+        <!-- ici aurait �t� la premi�re cellule -->
+        <td align="right">150</td>
+        <td align="left">Cossins</td>
+        <td align="right">$ 0,05</td>
+        <td align="right">$ 7,50</td>
+      </tr>
+
+      <tr> <!-- rang du total -->
+        <!-- ici aurait �t� la premi�re cellule -->
+        <td colspan="4" align="right" id="espace">Total&nbsp;</td>
+        <td align="right">$ 47,49</td>
+      </tr>
+
+    </table>
+ </body>
+</html>
